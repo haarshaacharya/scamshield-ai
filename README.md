@@ -1,14 +1,14 @@
 # ScamShield AI
 
-AI-powered scam detection system using Google Gemini AI.
+AI-powered scam detection platform using Google Gemini AI.
 
 ## Features
 
-* Scam message detection
-* Scam link analysis
-* Screenshot scam detection
-* AI-generated explanation
-* Risk score prediction
+* Scam Message Detection
+* Scam Link Analysis
+* Screenshot Scam Detection
+* AI Risk Scoring
+* Detailed Scam Explanation
 
 ## Tech Stack
 
@@ -22,31 +22,11 @@ AI-powered scam detection system using Google Gemini AI.
 * Flask
 * Google Gemini AI
 
-## Setup
-
-### Backend
-
-```bash
-cd scamshield-backend
-pip install -r requirements.txt
-python app.py
-```
-
-### Frontend
-
-```bash
-cd scamshield-frontend
-npm install
-npm run dev
-```
-
 ## Environment Variable
 
-Create a Gemini API key and set:
+Set your Gemini API Key before running:
 
-```env
 GEMINI_API_KEY=YOUR_API_KEY
-```
 
 ## Project Goal
 
